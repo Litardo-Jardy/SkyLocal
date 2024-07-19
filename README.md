@@ -4,7 +4,7 @@ Este proyecto permite usar tu propio almacenamiento local como un "Servidor" que
 y luego acceder a ellos mediante una url. Util para cuando necesites simular que diferentes usuarios suban sus recursos a tu APP sin tener 
 que contratar un hosting o firebase por ejemplo, cabe recalcar que por el momento es solo para pruebas y no para pasar a produccion.
 Por el momento solo funciona para imagenes pero la idea es que soporte cualquier tipo de recurso que pueda ser almacenado en archivos locales, si quieres
-aportar en su desarrollo sientete libre de hacer los ***pull request** con tus propuestas.
+aportar en su desarrollo sientete libre de hacer los ***pull request*** con tus propuestas.
 
 ## Índice
 
@@ -16,19 +16,25 @@ aportar en su desarrollo sientete libre de hacer los ***pull request** con tus p
 
 ### Requisitos Previos
 
-- [Tener instalado y configurado ***xampp*** de manera local](#)
-- [Tener configurado ***apache*** para que reconozca los archivos .htaccess](#)
+- [Tener instalado y configurado ***xampp*** de manera local](https://www.apachefriends.org/download.html)
+- Tener configurado ***apache*** para que reconozca los archivos .htaccess
 
 ### Pasos
 
 1.- Navega hasta la carpeta htdocs :
-   `cd c:/xampp/htdocs`
+
+   `
+   cd c:/xampp/htdocs`
 
    o si estas en linux :
-   `cd /opt/lampp/htdocs`
-   
+	
+   `
+   cd /opt/lampp/htdocs`
+
 2. Clonar el repositorio :
-   `git clone https://github.com/Litardo-Jardy/SkyLocal.git`
+   
+`
+   git clone https://github.com/Litardo-Jardy/SkyLocal.git`
 
 ## Uso
 
@@ -37,7 +43,9 @@ aportar en su desarrollo sientete libre de hacer los ***pull request** con tus p
 - Verifica que los servicios del ***xampp*** se encuentren en ejecucion
   
   En linux:
-  `cd /opt/lampp || sudo ./xampp status`
+
+  `
+  cd /opt/lampp || sudo ./xampp status`
 
   o si estas en window solo abre la interfaz grafica del xampp.
 
